@@ -1,18 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Kode Mono", monospace;
 }
+
+body{
+    background-color: rgb(238, 151, 212);
+}
+
 
 .container{
     height: 100vh;
-    background-color: rgb(238, 151, 212);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center ;
-    
 }
+
+.foto{
+    max-width: 350px;
+    max-height: 350px;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 25px;
+}
+
 
 .yes{
     width: 100px;
